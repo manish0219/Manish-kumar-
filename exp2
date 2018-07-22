@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+     <form><table width="100%">
+                <tr><td>
+                <br><h3>Submit Your Resume</h3>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <table>
+                        <tr>
+                            <td>*First Name:</td>
+                            <td><input type="text" required placeholder="Enter your first Name"></td>
+                        </tr>
+                        <tr>
+                            <td>*Middle Name:</td>
+                            <td><input type="text" required placeholder="Enter your middle Name"></td>
+                        </tr>
+                        <tr>
+                            <td>*Last Name:</td>
+                            <td><input type="text" required placeholder="Enter your last Name"></td>
+                        </tr>
+                        <tr>
+                            <td>Date of Birth</td>
+                            <td><input type="date" required ></td>
+                        </tr>
+                        <tr>
+                            <td>Age in Years</td>
+                            <td><input type="number" required min="18" max="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td><input type="radio" required name="gender" checked>Male<input type="radio" name="gender">Female</td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br><progress max="100" value="20"></progress>&nbsp;&nbsp;&nbsp;&nbsp;20% out of 100%
+                        
+                </td></tr>
+                <tr><td>
+                        <br><fieldset>
+                            <legend>Address Details</legend>
+                            <table>
+                                <tr>
+                                    <td>Address:</td>
+                                    <td><textarea inputmode="text" rows="3" cols="35" required></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td>City/Town:</td>
+                                    <td><input type="text" required></td>
+                                </tr>
+                                <tr>
+                                    <td>State:</td>
+                                    <td><input type="text" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Zip Code:</td>
+                                    <td><input type="text" maxlength="6" placeholder="only 6 numbers" required></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                        <br><progress max="100" value="40"></progress>&nbsp;&nbsp;&nbsp;&nbsp;40% out of 100%
+                </td></tr>
+                <tr><td>
+                <br><fieldset>
+                    <legend>Contact Information</legend>
+                    <table>
+                        <tr>
+                            <td>Telephone:</td>
+                            <td><input type="tel" placeholder="(044) 999-9999"></td>
+                        </tr>
+                        <tr>
+                            <td>*Mobile:</td>
+                            <td><input type="tel" required placeholder="(+91) 99999-99999"></td>
+                        </tr>
+                        <tr>
+                            <td>*Email:</td>
+                            <td><input type="email" required placeholder="valid email"></td>
+                        </tr>
+                        <tr>
+                            <td>Website</td>
+                            <td><input type="url" placeholder="valid url"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                        <br><progress max="100" value="60"></progress>&nbsp;&nbsp;&nbsp;&nbsp;60% out of 100%
+                </td></tr>
+                <tr><td>
+                        <br><fieldset><legend>Educational Details</legend>
+                            <table border="1" width="100%" >
+                                <tr>
+                                    <th>Qualification</th>
+                                    <th>Board/University</th>
+                                    <th>Country</th>
+                                    <th>Starting Year</th>
+                                    <th>Ending Year</th>
+                                    <th>Percentage</th>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox">10th</td>
+                                    <td><input type="text" placeholder="Board/University"></td>
+                                    <td><select>
+                                            <option>-Choose-</option>
+                                            <option>India</option>
+                                            <option>USA</option>
+                                        </select></td>
+                                    <td><input type="date"></td>
+                                    <td><input type="date"></td>
+                                    <td><input type="number" min="0" max="100"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox">12th</td>
+                                    <td><input type="text" placeholder="Board/University"></td>
+                                    <td><select>
+                                            <option>-Choose-</option>
+                                            <option>India</option>
+                                            <option>USA</option>
+                                        </select></td>
+                                    <td><input type="date"></td>
+                                    <td><input type="date"></td>
+                                    <td><input type="number" min="0" max="100"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox">B. Tech</td>
+                                    <td><input type="text" placeholder="Board/University"></td>
+                                    <td><select>
+                                            <option>-Choose-</option>
+                                            <option>India</option>
+                                            <option>USA</option>
+                                        </select></td>
+                                    <td><input type="date"></td>
+                                    <td><input type="date"></td>
+                                    <td><input type="number" min="0" max="100"></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox">M. Tech</td>
+                                    <td><input type="text" placeholder="Board/University"></td>
+                                    <td><select>
+                                            <option>-Choose-</option>
+                                            <option>India</option>
+                                            <option>USA</option>
+                                        </select></td>
+                                    <td><input type="date"></td>
+                                    <td><input type="date"></td>
+                                    <td><input type="number" min="0" max="100"></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                        <br><progress max="100" value="80"></progress>&nbsp;&nbsp;&nbsp;&nbsp;80% out of 100%
+                </td></tr>
+                
+                <tr><td>
+                        <br><fieldset>
+                            Attach Your resume in .doc or .pdf format &nbsp;&nbsp;&nbsp;&nbsp;<input type="file" ><br>
+                            <input type="checkbox">I filled all the details
+                        </fieldset>
+                        <br><progress max="100" value="100" >100% out of 100%</progress>&nbsp;&nbsp;&nbsp;&nbsp;100% out of 100%
+                </td></tr>
+            </table>
+            <center><a href="https://manish0202.github.io/index_1.html/" target="_blank"><input type="button" value="Submit"></a></center>
+        </form>
+           
+    </body>
+</html>
